@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01_Array_String_Brute_Force" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02_Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_Two_Pointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_Sliding_Window" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_Prefix_Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_Binary_Search_Classic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_Binary_Search_On_Answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_Advanced_Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09_Linked_List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_Stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_Queue_And_BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12_Trees_DFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_BST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_Backtracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_Divide_And_Conquer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_Graph_DFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_Graph_BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18_Union_Find" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_Heap_And_Greedy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_Dynamic_Programming" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
