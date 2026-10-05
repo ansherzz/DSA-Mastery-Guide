@@ -19,11 +19,30 @@ Hashing stores information you want to query in O(1) average time: frequencies, 
 Once you see repeated lookups or frequency counting, reach for HashMap, HashSet, or a custom key based on counts.
 
 ## Problems in this folder
+
+### Easy
 - `ValidAnagramHashing.java` - Count character frequencies and compare.
-- `GroupAnagramsHashing.java` - Hash each word by a canonical sorted signature.
 - `MajorityElementHashing.java` - Count frequencies until one crosses n/2.
+- `TwoSumHashing.java` - Store value -> index and look up each complement.
+- `ContainsDuplicateIIHashing.java` - Remember the last index of each value and compare the gap with k.
+- `FirstUniqueCharacterHashing.java` - Count frequencies, then find the first character with count 1.
+- `IsomorphicStringsHashing.java` - Keep forward and backward maps to enforce a one-to-one character mapping.
+- `WordPatternHashing.java` - Enforce a bijection between pattern letters and words.
+- `HappyNumberHashing.java` - Use a HashSet of seen values to detect a cycle in the digit-square process.
+- `IntersectionOfTwoArraysHashing.java` - Count one array, then consume counts while scanning the other.
+- `RansomNoteHashing.java` - Treat the magazine as a letter supply and consume from it.
+
+### Medium
+- `GroupAnagramsHashing.java` - Hash each word by a canonical sorted signature.
 - `SubarraySumEqualsKHashing.java` - Hash prefix sums so each subarray total is found in O(1) average time.
 - `LongestConsecutiveSequenceHashing.java` - Use a HashSet to detect sequence starts and extend them.
+- `SortCharactersByFrequencyHashing.java` - Count characters, then bucket them by frequency.
+- `FourSumIIHashing.java` - Hash all pair sums of two arrays and look up the negated sums of the other two.
+- `ContiguousArrayHashing.java` - Map each running balance to its first index to find the longest balanced subarray.
+- `ValidSudokuHashing.java` - Encode (group, digit) keys in one set to catch repeats in rows, columns, and boxes.
+- `BrickWallHashing.java` - Count shared brick-edge positions and cut through the most common one.
+- `LRUCacheHashing.java` - Combine a HashMap with a doubly linked list for O(1) get, put, and eviction.
+- `RandomizedSetHashing.java` - Pair a list with a value -> index map so insert, remove, and random pick are O(1).
 
 
 ## How to run one file

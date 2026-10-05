@@ -19,11 +19,30 @@ Sometimes you do not binary search an index; you binary search the value of the 
 Before coding, say the monotonic rule out loud: if this value works, what happens to larger or smaller values?
 
 ## Problems in this folder
+
+### Medium
 - `KokoEatingBananasBinarySearchAnswer.java` - Binary search the minimum feasible eating speed.
 - `ShipPackagesWithinDDaysBinarySearchAnswer.java` - Binary search the smallest ship capacity that passes a simulation.
-- `SplitArrayLargestSumBinarySearchAnswer.java` - Binary search the minimal largest allowed partition sum.
 - `MinimumDaysToMakeMBouquetsBinarySearchAnswer.java` - Search the earliest day that makes enough adjacent bouquets possible.
 - `MagneticForceBetweenTwoBallsBinarySearchAnswer.java` - Binary search the largest feasible minimum spacing.
+- `SmallestDivisorGivenThresholdBinarySearchAnswer.java` - Search the divisor; a larger divisor never increases the rounded-up sum.
+- `MinimizedMaximumOfProductsBinarySearchAnswer.java` - Search the per-store cap and count the stores each product needs.
+- `MaximumCandiesAllocatedToKChildrenBinarySearchAnswer.java` - Search the largest equal share that still serves k children.
+- `MinimumTimeToCompleteTripsBinarySearchAnswer.java` - Search the time limit and count trips completed within it.
+- `MinimumSpeedToArriveOnTimeBinarySearchAnswer.java` - Search the speed with rounded-up waits on every ride but the last.
+- `MinimumLimitOfBallsInBagBinarySearchAnswer.java` - Search the penalty and count the splits required to reach it.
+- `CuttingRibbonsBinarySearchAnswer.java` - Search the longest piece length that yields at least k pieces.
+- `MinimumTimeToRepairCarsBinarySearchAnswer.java` - Search the time and sum each mechanic's sqrt-based capacity.
+- `HouseRobberIVBinarySearchAnswer.java` - Search the capability and greedily count non-adjacent robbable houses.
+- `KthSmallestInSortedMatrixBinarySearchAnswer.java` - Search the value and count elements <= it with a staircase walk.
+
+### Hard
+- `SplitArrayLargestSumBinarySearchAnswer.java` - Binary search the minimal largest allowed partition sum.
+- `KthSmallestInMultiplicationTableBinarySearchAnswer.java` - Search the value and count table entries <= it row by row.
+- `KthSmallestPairDistanceBinarySearchAnswer.java` - Search the distance and count close pairs with a sliding window.
+- `MinimizeMaxDistanceToGasStationBinarySearchAnswer.java` - Real-valued search on the largest allowed gap.
+- `MaximumRunningTimeOfNComputersBinarySearchAnswer.java` - Search the run time; each battery contributes at most that many minutes.
+- `DivideChocolateBinarySearchAnswer.java` - Maximize the minimum piece by greedily cutting once a piece is sweet enough.
 
 
 ## How to run one file

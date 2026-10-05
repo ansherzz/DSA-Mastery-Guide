@@ -19,11 +19,32 @@ Prefix sum precomputes cumulative information so any range query can be answered
 If the prompt says subarray sum equals something, think prefix sum first, then ask whether a hashmap of prefixes is needed.
 
 ## Problems in this folder
+
+### Easy
 - `RunningSumPrefixSum.java` - Build cumulative totals from left to right.
 - `RangeSumQueryImmutablePrefixSum.java` - Precompute prefix sums so every range query is constant time.
+- `FindPivotIndexPrefixSum.java` - Use total sum plus a running left sum to derive the right sum instantly.
+- `FindHighestAltitudePrefixSum.java` - The altitude at each point is a prefix sum; take the largest.
+- `LeftAndRightSumDifferencesPrefixSum.java` - Derive the right sum from the total and a running left sum.
+- `MinimumStartValuePrefixSum.java` - The minimum prefix sum decides the smallest safe starting value.
+- `SumOfAllOddLengthSubarraysPrefixSum.java` - Use a prefix array to sum every odd-length range in O(1) each.
+
+### Medium
 - `ContinuousSubarraySumPrefixSum.java` - Equal prefix remainders imply a subarray sum divisible by k.
 - `ProductOfArrayExceptSelfPrefixSum.java` - Combine prefix products from the left and suffix products from the right.
-- `FindPivotIndexPrefixSum.java` - Use total sum plus a running left sum to derive the right sum instantly.
+- `RangeSumQuery2DPrefixSum.java` - Build a 2D prefix table and answer rectangles with inclusion-exclusion.
+- `SubarraySumsDivisibleByKPrefixSum.java` - Count pairs of prefixes that share the same remainder mod k.
+- `MaximumSizeSubarraySumEqualsKPrefixSum.java` - Store the earliest index of each prefix to get the longest sum-k subarray.
+- `CorporateFlightBookingsPrefixSum.java` - Apply range updates with a difference array, then prefix-sum it.
+- `CarPoolingPrefixSum.java` - Mark pickups and drop-offs in a difference array and sweep the running load.
+- `NumberOfWaysToSplitArrayPrefixSum.java` - Compare each prefix against total minus prefix.
+- `XorQueriesOfSubarrayPrefixSum.java` - Prefix XOR answers range XOR queries because XOR undoes itself.
+- `CountVowelStringsInRangesPrefixSum.java` - Prefix-count qualifying words to answer range count queries.
+- `MatrixBlockSumPrefixSum.java` - Use a 2D prefix table with clamped corners for each cell's block.
+- `MaximumSubarrayPrefixSum.java` - Best subarray ending here is the current prefix minus the minimum earlier prefix.
+
+### Hard
+- `ShortestSubarrayWithSumAtLeastKPrefixSum.java` - Combine prefix sums with a monotonic deque of start candidates.
 
 
 ## How to run one file
