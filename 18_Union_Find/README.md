@@ -19,11 +19,32 @@ Union Find, or Disjoint Set Union, tracks connected components under merge opera
 Use path compression and union by rank or size to keep operations fast.
 
 ## Problems in this folder
+
+### Easy
+- `FindIfPathExistsUnionFind.java` - Union every edge, then compare the roots of source and destination.
+
+### Medium
 - `RedundantConnectionUnionFind.java` - If an edge joins two nodes already connected, it is the redundant one.
 - `NumberOfConnectedComponentsUnionFind.java` - Each successful union merges two components into one.
 - `AccountsMergeUnionFind.java` - Union accounts that share emails, then aggregate emails by root.
 - `NumberOfProvincesUnionFind.java` - Treat every direct connection as a union and count final roots.
 - `SatisfiabilityOfEqualityEquationsUnionFind.java` - Union all equalities first, then verify inequalities.
+- `GraphValidTreeUnionFind.java` - Exactly n - 1 edges and no union that finds a cycle.
+- `NumberOfIslandsUnionFind.java` - Start with one component per land cell and merge right and down neighbors.
+- `MostStonesRemovedUnionFind.java` - Group stones by shared row or column; removals equal stones minus groups.
+- `NetworkConnectedOperationsUnionFind.java` - Count components; components - 1 spare cables are needed.
+- `EarliestMomentEveryoneBecomesFriendsUnionFind.java` - Add edges in time order until one component remains.
+- `SmallestStringWithSwapsUnionFind.java` - Indices linked by swaps form groups whose characters can be sorted freely.
+- `MinCostToConnectAllPointsUnionFind.java` - Kruskal's minimum spanning tree over all point pairs.
+- `LongestConsecutiveSequenceUnionFind.java` - Union each value with value + 1 and track the largest set.
+- `SentenceSimilarityIIUnionFind.java` - Build equivalence classes of similar words.
+- `EvaluateDivisionUnionFind.java` - Weighted DSU storing each variable's ratio to its root.
+- `CountUnreachablePairsUnionFind.java` - Multiply each component's size by the nodes outside it.
+
+### Hard
+- `NumberOfIslandsIIUnionFind.java` - Incremental connectivity as land cells are added one at a time.
+- `SwimInRisingWaterUnionFind.java` - Activate cells by elevation until start and end are connected.
+- `RedundantConnectionIIUnionFind.java` - Combine two-parent detection with cycle detection in a directed graph.
 
 
 ## How to run one file

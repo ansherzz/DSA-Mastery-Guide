@@ -19,10 +19,31 @@ Two pointers move through data from one or both ends while maintaining a useful 
 Always ask what condition tells you which pointer should move. That rule is the heart of the pattern.
 
 ## Problems in this folder
+
+### Easy
 - `ValidPalindromeTwoPointers.java` - Move inward from both ends and compare only useful characters.
+- `RemoveDuplicatesFromSortedArrayTwoPointers.java` - Exploit sorted order to compress duplicates in-place.
+- `RemoveElementTwoPointers.java` - Use read and write pointers to overwrite unwanted values in-place.
+- `SquaresOfSortedArrayTwoPointers.java` - Fill the result from the back using the larger absolute value at either end.
+- `ReverseVowelsTwoPointers.java` - Move inward from both ends and swap only the vowels.
+- `IsSubsequenceTwoPointers.java` - Advance through both strings, matching characters greedily in order.
+- `ValidPalindromeIITwoPointers.java` - At the first mismatch, try skipping either side once.
+- `BackspaceStringCompareTwoPointers.java` - Walk both strings backward while resolving pending backspaces.
+
+### Medium
 - `ContainerWithMostWaterTwoPointers.java` - Use two ends and always move the shorter wall.
 - `ThreeSumTwoPointers.java` - Sort once, then solve each fixed-element case with two pointers.
-- `RemoveDuplicatesFromSortedArrayTwoPointers.java` - Exploit sorted order to compress duplicates in-place.
+- `TwoSumIISortedTwoPointers.java` - Use sorted order to move the pointer that fixes the sum.
+- `SortColorsTwoPointers.java` - Dutch National Flag partition with low, mid, and high pointers.
+- `ThreeSumClosestTwoPointers.java` - Sort, fix one value, and track the nearest sum with two pointers.
+- `FourSumTwoPointers.java` - Fix two values and solve the remaining pair with two pointers while skipping duplicates.
+- `BoatsToSavePeopleTwoPointers.java` - Pair the lightest with the heaviest whenever they fit.
+- `IntervalListIntersectionsTwoPointers.java` - Intersect the current pair and advance the interval that ends first.
+- `NextPermutationTwoPointers.java` - Find the pivot from the right, swap with its successor, and reverse the suffix.
+- `RemoveDuplicatesFromSortedArrayIITwoPointers.java` - Keep at most two copies by comparing against write - 2.
+- `FindTheDuplicateNumberTwoPointers.java` - Treat values as next pointers and find the cycle entrance with slow and fast pointers.
+
+### Hard
 - `TrappingRainWaterTwoPointers.java` - Track best walls from both sides and process the limiting side.
 
 

@@ -19,11 +19,30 @@ Advanced search problems apply binary-search thinking in rotated arrays, partiti
 When the structure looks unusual, first identify what remains ordered after every split.
 
 ## Problems in this folder
+
+### Medium
 - `SearchInRotatedSortedArrayAdvanced.java` - Find the sorted half first, then decide which side can contain the target.
 - `FindMinimumInRotatedSortedArrayAdvanced.java` - Search for the rotation point by comparing mid with right.
 - `SingleElementInSortedArrayAdvanced.java` - Exploit the even-odd pair alignment around the single element.
-- `MedianOfTwoSortedArraysAdvanced.java` - Binary search the partition of the smaller array until both sides are valid.
 - `SearchInRotatedSortedArrayIIAdvanced.java` - Handle duplicates by shrinking ambiguous boundaries before applying rotated search logic.
+- `SearchA2DMatrixIIAdvanced.java` - Staircase search from the top-right corner eliminates a row or column per step.
+- `FindPeakElementIIAdvanced.java` - Binary search columns using each column's maximum to pick a direction.
+- `KthElementOfTwoSortedArraysAdvanced.java` - Binary search the partition point that splits off the k smallest elements.
+- `MedianOfRowWiseSortedMatrixAdvanced.java` - Search the value and count with an upper bound in every row.
+- `SearchInNearlySortedArrayAdvanced.java` - Check mid and both neighbors, then skip two positions.
+- `CountCompleteTreeNodesAdvanced.java` - Binary search the last existing position on the bottom level.
+- `MissingElementInSortedArrayAdvanced.java` - Search on the derived count of numbers missing before each index.
+- `RandomPickWithWeightAdvanced.java` - Lower-bound a random target in the prefix sums of the weights.
+- `SnapshotArrayAdvanced.java` - Keep per-index change history and floor-search it by snap id.
+- `FindRightIntervalAdvanced.java` - Sort starts with their indices and lower-bound each interval's end.
+- `MaximumValueAtGivenIndexAdvanced.java` - Search the peak value using a closed-form minimum array sum.
+- `SearchSuggestionsSystemAdvanced.java` - Sort products and lower-bound each typed prefix.
+
+### Hard
+- `MedianOfTwoSortedArraysAdvanced.java` - Binary search the partition of the smaller array until both sides are valid.
+- `FindMinimumInRotatedSortedArrayIIAdvanced.java` - Handle duplicates by shrinking the right end when mid and right are equal.
+- `FindInMountainArrayAdvanced.java` - Locate the peak, then search the ascending and descending halves.
+- `RussianDollEnvelopesAdvanced.java` - Sort by width, then run binary-search LIS on heights.
 
 
 ## How to run one file

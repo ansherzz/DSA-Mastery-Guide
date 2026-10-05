@@ -19,11 +19,32 @@ Sliding window maintains a contiguous range while expanding and shrinking it to 
 Decide the window invariant first: what must be true before you record an answer or before you shrink?
 
 ## Problems in this folder
+
+### Easy
+- `MaximumAverageSubarraySlidingWindow.java` - Slide a fixed window and update the sum in O(1).
+- `MinimumRecolorsSlidingWindow.java` - Find the fixed window with the fewest white blocks.
+
+### Medium
 - `LongestSubstringWithoutRepeatingSlidingWindow.java` - Expand right, and shift left only when a repeat breaks the window.
 - `MinimumSizeSubarraySumSlidingWindow.java` - Positive values make expand-and-shrink logic possible.
 - `PermutationInStringSlidingWindow.java` - Use a fixed-length window and maintain frequency counts.
 - `LongestRepeatingCharacterReplacementSlidingWindow.java` - Maintain a window where all but the most frequent letter can be changed within k.
+- `MaxConsecutiveOnesIIISlidingWindow.java` - Keep the longest window containing at most k zeros.
+- `FruitIntoBasketsSlidingWindow.java` - Longest window with at most two distinct values.
+- `FindAllAnagramsSlidingWindow.java` - Compare fixed-window letter counts against the pattern's counts.
+- `LongestSubstringKDistinctSlidingWindow.java` - Shrink whenever the window holds more than k distinct characters.
+- `SubarrayProductLessThanKSlidingWindow.java` - Count valid subarrays ending at each right index using a running product.
+- `MaximumVowelsInSubstringSlidingWindow.java` - Track the vowel count of a fixed-length window.
+- `MaximumSumOfDistinctSubarraysSlidingWindow.java` - Fixed window with a frequency map to confirm all values are distinct.
+- `LongestSubarrayAfterDeletingOneSlidingWindow.java` - Longest window with at most one zero, minus the deleted element.
+- `MaximumPointsFromCardsSlidingWindow.java` - Minimize the middle window that is left behind.
+- `GrumpyBookstoreOwnerSlidingWindow.java` - Add the best rescued window to the always-satisfied total.
+- `BinarySubarraysWithSumSlidingWindow.java` - Count exactly-goal as atMost(goal) - atMost(goal - 1).
+
+### Hard
 - `MinimumWindowSubstringSlidingWindow.java` - Grow until valid, then shrink to the smallest valid range.
+- `MaximumOfEachWindowSlidingWindow.java` - Use a monotonic deque of candidates for each window's maximum.
+- `SubarraysWithKDistinctSlidingWindow.java` - Count exactly-k distinct as atMost(k) - atMost(k - 1).
 
 
 ## How to run one file

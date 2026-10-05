@@ -9,10 +9,11 @@ This bundle is a study pack built around 20 core DSA patterns.
   - when to use it
   - how to identify it in interviews
   - a mental model / upgrade path
-  - the runnable Java files in that folder
-- 100 runnable Java programs in total
+  - the runnable Java files in that folder, grouped from Easy to Medium to Hard
+- a set of interview-level problems for every pattern, each solved in its own runnable Java program
 - every Java file includes:
   - a full interview-style problem statement in comments
+  - the difficulty level (Easy, Medium, or Hard)
   - why the pattern fits
   - the approach
   - time and space complexity
@@ -42,10 +43,11 @@ This bundle is a study pack built around 20 core DSA patterns.
 
 ## How to study this pack
 1. Read the folder README first.
-2. Solve the problem on your own.
-3. Then read the commented Java solution.
-4. Run the file and inspect the sample output.
-5. After finishing a folder, summarize:
+2. Work through the problem list in order; each README lists its problems from easy to hard.
+3. Solve the problem on your own.
+4. Then read the commented Java solution.
+5. Run the file and inspect the sample output.
+6. After finishing a folder, summarize:
    - how to identify the pattern
    - what invariant made the solution work
    - what edge cases were important
@@ -76,6 +78,6 @@ bash compile_all.sh
 The script compiles each Java file independently so you can verify the full pack quickly.
 
 ## Suggested routine
-- Spend one day per folder if you want a 20-day pattern sprint.
+- Spend one day per folder if you want a 20-day pattern sprint: do the Easy problems and a few Medium ones first, then come back for the rest.
 - Revisit folders 3, 4, 7, 12, 16, 19, and 20 for revision.
 - After each 5-day block, mix problems from earlier folders without looking at the README first.

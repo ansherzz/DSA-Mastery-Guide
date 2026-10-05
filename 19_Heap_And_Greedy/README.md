@@ -19,11 +19,32 @@ Heap problems repeatedly need the current best candidate, while greedy problems 
 Ask two questions: do I need a heap for dynamic best choice, and what invariant makes the greedy choice safe?
 
 ## Problems in this folder
+
+### Easy
+- `KthLargestElementInStreamHeapGreedy.java` - Min-heap capped at size k whose top is the kth largest.
+- `LastStoneWeightHeapGreedy.java` - Max-heap simulation of repeatedly smashing the two heaviest stones.
+- `AssignCookiesHeapGreedy.java` - Sort both lists and give each child the smallest cookie that satisfies them.
+- `LemonadeChangeHeapGreedy.java` - Prefer giving a 10 as change to keep the more flexible 5s.
+
+### Medium
 - `TopKFrequentElementsHeapGreedy.java` - Count frequencies, then use a heap to extract the top k.
-- `MergeKSortedListsHeapGreedy.java` - A min-heap across list heads always reveals the next smallest node.
 - `MeetingRoomsIIHeapGreedy.java` - Track active meeting end times in a min-heap to reuse rooms greedily.
 - `TaskSchedulerHeapGreedy.java` - Greedily execute the most frequent tasks using a max-heap and cooldown cycles.
 - `ReorganizeStringHeapGreedy.java` - Use the most frequent available character while holding back the last-used one.
+- `KClosestPointsToOriginHeapGreedy.java` - Max-heap of size k ordered by squared distance.
+- `KthLargestElementInArrayHeapGreedy.java` - Keep the k largest values in a min-heap.
+- `JumpGameHeapGreedy.java` - Track the farthest reachable index in one pass.
+- `JumpGameIIHeapGreedy.java` - Count jumps by expanding reachable ranges like BFS levels.
+- `GasStationHeapGreedy.java` - Reset the start whenever the tank goes negative and check the total surplus.
+- `MergeIntervalsHeapGreedy.java` - Sort by start and extend or close the current interval.
+- `NonOverlappingIntervalsHeapGreedy.java` - Sort by end and always keep the interval that finishes first.
+- `PartitionLabelsHeapGreedy.java` - Extend each part to the last occurrence of every letter inside it.
+
+### Hard
+- `MergeKSortedListsHeapGreedy.java` - A min-heap across list heads always reveals the next smallest node.
+- `FindMedianFromDataStreamHeapGreedy.java` - Balance a max-heap of the lower half against a min-heap of the upper half.
+- `IPOHeapGreedy.java` - Unlock projects by capital and repeatedly take the most profitable one.
+- `CandyHeapGreedy.java` - Two greedy passes, one for each neighbor rule.
 
 
 ## How to run one file
