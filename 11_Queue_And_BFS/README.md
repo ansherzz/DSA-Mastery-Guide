@@ -26,6 +26,9 @@ Mark states visited as soon as you enqueue them to avoid duplicates.
 - `AverageOfLevelsInBinaryTreeBFS.java` - Level-order traversal that averages each level's values.
 - `MinimumDepthOfBinaryTreeBFS.java` - Stop at the first leaf BFS reaches.
 - `FloodFillBFS.java` - Spread from the start pixel through same-colored neighbors.
+- `NumberOfRecentCallsQueue.java` - Queue the timestamps and drop the ones that fell out of the 3000 ms window.
+- `TimeNeededToBuyTicketsQueue.java` - Simulate the line by serving the front and re-queuing whoever still needs tickets.
+- `CousinsInBinaryTreeBFS.java` - Check siblings while expanding and compare which targets appear in each level.
 
 ### Medium
 - `BinaryTreeLevelOrderTraversalBFS.java` - Use a queue to process the tree level by level.
@@ -42,9 +45,16 @@ Mark states visited as soon as you enqueue them to avoid duplicates.
 - `AsFarFromLandAsPossibleBFS.java` - Multi-source BFS from all land; the last ring is the farthest water.
 - `NearestExitFromEntranceInMazeBFS.java` - Grid BFS that returns at the first border cell reached.
 - `PerfectSquaresBFS.java` - Model numbers as nodes and subtracting a square as an edge.
+- `NAryTreeLevelOrderTraversalBFS.java` - Level-order traversal where each node offers a list of children.
+- `FindLargestValueInEachTreeRowBFS.java` - Take one maximum per BFS level.
+- `DesignCircularDequeQueue.java` - Implement a double-ended queue on a ring buffer with a front index and a size.
+- `JumpGameIIIBFS.java` - Treat indices as nodes with two jump edges and search for a zero.
+- `Dota2SenateQueue.java` - Keep one queue per party; the earlier senator bans the other and rejoins for the next round.
+- `RevealCardsInIncreasingOrderQueue.java` - Simulate the reveal process on positions to learn where each sorted card goes.
 
 ### Hard
 - `SlidingPuzzleBFS.java` - BFS over board states encoded as strings.
+- `ShortestPathWithObstaclesEliminationBFS.java` - BFS over (cell, eliminations left), keeping only arrivals with more eliminations remaining.
 
 
 ## How to run one file

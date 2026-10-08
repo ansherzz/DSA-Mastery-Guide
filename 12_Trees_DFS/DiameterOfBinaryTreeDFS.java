@@ -3,7 +3,7 @@ import java.util.*;
 /*
 Problem: Diameter of Binary Tree
 Pattern: 12. Trees & Recursion - DFS
-Difficulty: Easy-Medium
+Difficulty: Easy
 
 Interview Prompt:
 The diameter of a binary tree is the number of edges on the longest path between any two nodes.

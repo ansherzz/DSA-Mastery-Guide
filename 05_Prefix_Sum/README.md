@@ -28,6 +28,8 @@ If the prompt says subarray sum equals something, think prefix sum first, then a
 - `LeftAndRightSumDifferencesPrefixSum.java` - Derive the right sum from the total and a running left sum.
 - `MinimumStartValuePrefixSum.java` - The minimum prefix sum decides the smallest safe starting value.
 - `SumOfAllOddLengthSubarraysPrefixSum.java` - Use a prefix array to sum every odd-length range in O(1) each.
+- `MaximumScoreAfterSplittingStringPrefixSum.java` - Score every split from a prefix count of zeros and a suffix count of ones.
+- `PointsThatIntersectWithCarsPrefixSum.java` - Mark each range in a difference array and prefix-sum it to get coverage.
 
 ### Medium
 - `ContinuousSubarraySumPrefixSum.java` - Equal prefix remainders imply a subarray sum divisible by k.
@@ -42,9 +44,17 @@ If the prompt says subarray sum equals something, think prefix sum first, then a
 - `CountVowelStringsInRangesPrefixSum.java` - Prefix-count qualifying words to answer range count queries.
 - `MatrixBlockSumPrefixSum.java` - Use a 2D prefix table with clamped corners for each cell's block.
 - `MaximumSubarrayPrefixSum.java` - Best subarray ending here is the current prefix minus the minimum earlier prefix.
+- `SubarraySumEqualsKPrefixSum.java` - Count earlier prefixes equal to prefix - k with a hash map.
+- `ContiguousArrayPrefixSum.java` - Treat 0 as -1 and find the two farthest indices with the same running balance.
+- `MinimumPenaltyForShopPrefixSum.java` - Track the running penalty change per hour and keep the earliest minimum.
+- `KRadiusSubarrayAveragesPrefixSum.java` - Answer every centered range sum in O(1) from one prefix array.
+- `MaximumSumOfTwoNonOverlappingSubarraysPrefixSum.java` - Pair each right subarray with the best left subarray seen so far, in both orders.
+- `MakeSumDivisibleByPPrefixSum.java` - Look up the prefix remainder that makes the removed subarray match total mod p.
+- `LongestSubstringWithVowelsInEvenCountsPrefixSum.java` - Use a prefix XOR mask of vowel parities and the first index of each mask.
 
 ### Hard
 - `ShortestSubarrayWithSumAtLeastKPrefixSum.java` - Combine prefix sums with a monotonic deque of start candidates.
+- `NumberOfSubmatricesThatSumToTargetPrefixSum.java` - Fix two rows, collapse to column sums, and count target subarrays with prefix sums.
 
 
 ## How to run one file

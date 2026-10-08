@@ -29,6 +29,10 @@ Always ask what condition tells you which pointer should move. That rule is the 
 - `IsSubsequenceTwoPointers.java` - Advance through both strings, matching characters greedily in order.
 - `ValidPalindromeIITwoPointers.java` - At the first mismatch, try skipping either side once.
 - `BackspaceStringCompareTwoPointers.java` - Walk both strings backward while resolving pending backspaces.
+- `MergeSortedArrayTwoPointers.java` - Merge from the back so the empty tail is filled without overwriting unread values.
+- `MoveZeroesTwoPointers.java` - Use a read pointer and a write pointer to compact the non-zero values in place.
+- `SortArrayByParityTwoPointers.java` - Partition evens and odds with pointers converging from both ends.
+- `LongPressedNameTwoPointers.java` - Walk both strings together, letting the typed pointer absorb repeated characters.
 
 ### Medium
 - `ContainerWithMostWaterTwoPointers.java` - Use two ends and always move the shorter wall.
@@ -42,9 +46,15 @@ Always ask what condition tells you which pointer should move. That rule is the 
 - `NextPermutationTwoPointers.java` - Find the pivot from the right, swap with its successor, and reverse the suffix.
 - `RemoveDuplicatesFromSortedArrayIITwoPointers.java` - Keep at most two copies by comparing against write - 2.
 - `FindTheDuplicateNumberTwoPointers.java` - Treat values as next pointers and find the cycle entrance with slow and fast pointers.
+- `ThreeSumSmallerTwoPointers.java` - After sorting, count a whole block of valid pairs whenever the sum is small enough.
+- `RotateArrayTwoPointers.java` - Rotate in place with three range reversals.
+- `StringCompressionTwoPointers.java` - Read each run and write its compressed form behind the read pointer.
+- `ValidTriangleNumberTwoPointers.java` - Fix the largest side and count pairs whose sum exceeds it.
+- `ShortestUnsortedContinuousSubarrayTwoPointers.java` - Find each boundary with a scan from the opposite end and a running extreme.
 
 ### Hard
 - `TrappingRainWaterTwoPointers.java` - Track best walls from both sides and process the limiting side.
+- `MinimumWindowSubsequenceTwoPointers.java` - Match forward to find a window end, then walk backward to tighten its start.
 
 
 ## How to run one file

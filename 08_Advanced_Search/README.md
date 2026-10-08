@@ -20,6 +20,9 @@ When the structure looks unusual, first identify what remains ordered after ever
 
 ## Problems in this folder
 
+### Easy
+- `FixedPointAdvanced.java` - Binary search on the hidden monotonic quantity arr[i] - i.
+
 ### Medium
 - `SearchInRotatedSortedArrayAdvanced.java` - Find the sorted half first, then decide which side can contain the target.
 - `FindMinimumInRotatedSortedArrayAdvanced.java` - Search for the rotation point by comparing mid with right.
@@ -37,12 +40,21 @@ When the structure looks unusual, first identify what remains ordered after ever
 - `FindRightIntervalAdvanced.java` - Sort starts with their indices and lower-bound each interval's end.
 - `MaximumValueAtGivenIndexAdvanced.java` - Search the peak value using a closed-form minimum array sum.
 - `SearchSuggestionsSystemAdvanced.java` - Sort products and lower-bound each typed prefix.
+- `FindTheDuplicateNumberAdvanced.java` - Search the value range and count elements <= mid to apply the pigeonhole principle.
+- `ExponentialSearchAdvanced.java` - Gallop to bracket the target, then binary search inside the bracket.
+- `LeftmostColumnWithAtLeastAOneAdvanced.java` - Lower-bound each row inside a search range that shrinks as better columns are found.
+- `MyCalendarAdvanced.java` - Use an ordered map to check only the previous and next events for overlap.
+- `SumOfMutatedArrayClosestToTargetAdvanced.java` - Find the first cap whose sum reaches the target, then compare it with its left neighbor.
+- `KthSmallestPrimeFractionAdvanced.java` - Search a real threshold and count fractions below it with a two-pointer sweep.
+- `MinimumAbsoluteSumDifferenceAdvanced.java` - Find the closest replacement for each index with a lower bound on a sorted copy.
 
 ### Hard
 - `MedianOfTwoSortedArraysAdvanced.java` - Binary search the partition of the smaller array until both sides are valid.
 - `FindMinimumInRotatedSortedArrayIIAdvanced.java` - Handle duplicates by shrinking the right end when mid and right are equal.
 - `FindInMountainArrayAdvanced.java` - Locate the peak, then search the ascending and descending halves.
 - `RussianDollEnvelopesAdvanced.java` - Sort by width, then run binary-search LIS on heights.
+- `MinimumCostToMakeArrayEqualAdvanced.java` - Search the minimum of a convex cost function by comparing neighboring values.
+- `MaximumProfitInJobSchedulingAdvanced.java` - Sort by end time and binary search the last compatible job inside the DP.
 
 
 ## How to run one file

@@ -26,6 +26,8 @@ Always define the DP state in words before writing code: what exactly does dp[i]
 - `MinCostClimbingStairsDP.java` - Cheapest arrival at each step from the two steps below.
 - `PascalsTriangleDP.java` - Tabulate each row from the row above it.
 - `BestTimeToBuyAndSellStockDP.java` - Carry the minimum price so far and the best profit so far.
+- `CountingBitsDP.java` - Reuse the bit count of i >> 1 and add the lowest bit.
+- `NthTribonacciNumberDP.java` - Roll three variables forward, each value being the sum of the previous three.
 
 ### Medium
 - `HouseRobberDP.java` - For each house, choose between skipping it or robbing it.
@@ -41,10 +43,18 @@ Always define the DP state in words before writing code: what exactly does dp[i]
 - `LongestPalindromicSubstringDP.java` - Interval table: ends match and the inside is a palindrome.
 - `MaximumProductSubarrayDP.java` - Track both the maximum and minimum product ending at each index.
 - `EditDistanceDP.java` - 2D table over prefixes with insert, delete, and replace transitions.
+- `MinimumPathSumDP.java` - Cheapest arrival at each cell from the cell above or the cell to the left.
+- `DeleteAndEarnDP.java` - Bucket points by value and run House Robber along the number line.
+- `TriangleDP.java` - Fold the triangle from the bottom row upward, keeping the cheaper child at each step.
+- `TargetSumDP.java` - Convert the sign choices into counting subsets with a fixed sum.
+- `LongestPalindromicSubsequenceDP.java` - Interval table: matching ends add 2, otherwise drop one end.
+- `BestTimeToBuyAndSellStockWithCooldownDP.java` - Three-state machine: holding, just sold, and resting.
+- `MaximalSquareDP.java` - Largest square ending at a cell is 1 plus the minimum of its three neighbors.
 
 ### Hard
 - `RegularExpressionMatchingDP.java` - 2D table where '*' either uses zero copies or consumes one more character.
 - `BurstBalloonsDP.java` - Interval DP that chooses the last balloon to burst in each range.
+- `DistinctSubsequencesDP.java` - Count the ways to match prefixes of t, sweeping backward so each character is used once.
 
 
 ## How to run one file

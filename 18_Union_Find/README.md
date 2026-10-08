@@ -40,11 +40,21 @@ Use path compression and union by rank or size to keep operations fast.
 - `SentenceSimilarityIIUnionFind.java` - Build equivalence classes of similar words.
 - `EvaluateDivisionUnionFind.java` - Weighted DSU storing each variable's ratio to its root.
 - `CountUnreachablePairsUnionFind.java` - Multiply each component's size by the nodes outside it.
+- `MinimumScoreOfPathBetweenTwoCitiesUnionFind.java` - Find the component of city 1 and take its smallest road.
+- `LexicographicallySmallestEquivalentStringUnionFind.java` - Union equivalent letters, always keeping the smallest letter as the root.
+- `PossibleBipartitionUnionFind.java` - Union everyone a person dislikes and reject if the person lands in the same set.
+- `RegionsCutBySlashesUnionFind.java` - Split each cell into four triangles and union the ones a slash does not separate.
+- `SurroundedRegionsUnionFind.java` - Connect border cells to a virtual node and flip every O that is not in its set.
+- `CountCompleteComponentsUnionFind.java` - Compare each component's edge count with k * (k - 1) / 2.
 
 ### Hard
 - `NumberOfIslandsIIUnionFind.java` - Incremental connectivity as land cells are added one at a time.
 - `SwimInRisingWaterUnionFind.java` - Activate cells by elevation until start and end are connected.
 - `RedundantConnectionIIUnionFind.java` - Combine two-parent detection with cycle detection in a directed graph.
+- `CouplesHoldingHandsUnionFind.java` - Union the couples that share a sofa; each group of k couples needs k - 1 swaps.
+- `SimilarStringGroupsUnionFind.java` - Union every pair of strings that differ in at most two positions and count the groups.
+- `RemoveMaxNumberOfEdgesUnionFind.java` - Use one DSU per person, apply shared edges first, and count the redundant edges.
+- `EdgeLengthLimitedPathsUnionFind.java` - Answer queries offline in order of limit while adding edges in order of distance.
 
 
 ## How to run one file

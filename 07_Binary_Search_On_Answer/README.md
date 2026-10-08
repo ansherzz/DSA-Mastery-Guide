@@ -35,6 +35,14 @@ Before coding, say the monotonic rule out loud: if this value works, what happen
 - `MinimumTimeToRepairCarsBinarySearchAnswer.java` - Search the time and sum each mechanic's sqrt-based capacity.
 - `HouseRobberIVBinarySearchAnswer.java` - Search the capability and greedily count non-adjacent robbable houses.
 - `KthSmallestInSortedMatrixBinarySearchAnswer.java` - Search the value and count elements <= it with a staircase walk.
+- `MinimizeMaximumOfArrayBinarySearchAnswer.java` - Search the maximum and check that every prefix sum fits under it.
+- `MaximumTastinessOfCandyBasketBinarySearchAnswer.java` - Search the minimum price gap and greedily pick candies that respect it.
+- `UglyNumberIIIBinarySearchAnswer.java` - Search the value whose inclusion-exclusion count of multiples reaches n.
+- `MaximumNumberOfRemovableCharactersBinarySearchAnswer.java` - Search the number of removals and re-run a subsequence check.
+- `PathWithMinimumEffortBinarySearchAnswer.java` - Search the effort limit and test reachability with BFS.
+- `MaximumSideLengthOfSquareBinarySearchAnswer.java` - Search the side length and test squares with a 2D prefix sum.
+- `MinimizeMaximumDifferenceOfPairsBinarySearchAnswer.java` - Search the difference limit and greedily pair sorted neighbors.
+- `HeatersBinarySearchAnswer.java` - Search the radius and sweep houses against heaters to test coverage.
 
 ### Hard
 - `SplitArrayLargestSumBinarySearchAnswer.java` - Binary search the minimal largest allowed partition sum.
@@ -43,6 +51,8 @@ Before coding, say the monotonic rule out loud: if this value works, what happen
 - `MinimizeMaxDistanceToGasStationBinarySearchAnswer.java` - Real-valued search on the largest allowed gap.
 - `MaximumRunningTimeOfNComputersBinarySearchAnswer.java` - Search the run time; each battery contributes at most that many minutes.
 - `DivideChocolateBinarySearchAnswer.java` - Maximize the minimum piece by greedily cutting once a piece is sweet enough.
+- `NthMagicalNumberBinarySearchAnswer.java` - Search the value whose count of multiples of a or b reaches n.
+- `MaximumAverageSubarrayIIBinarySearchAnswer.java` - Search the average over real numbers and test it with shifted prefix sums.
 
 
 ## How to run one file

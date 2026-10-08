@@ -25,6 +25,9 @@ Write the base case first, then define the exact split and merge steps.
 - `BinarySearchRecursiveDivideConquer.java` - Divide at the middle and recurse into only one half.
 - `MajorityElementDivideConquer.java` - The majority of the whole must be the majority of a half; count the two candidates.
 - `TowerOfHanoiDivideConquer.java` - Move n - 1 disks aside, move the largest, then move the n - 1 back on top.
+- `FindMinAndMaxDivideConquer.java` - Solve both halves and combine with two comparisons to save comparisons overall.
+- `LongestNiceSubstringDivideConquer.java` - Split at any character whose other case is missing and solve both sides.
+- `ReverseBitsDivideConquer.java` - Swap halves, then halves of halves, all blocks at once with masks.
 
 ### Medium
 - `MergeSortDivideAndConquer.java` - Split, sort both halves, then merge.
@@ -39,12 +42,19 @@ Write the base case first, then define the exact split and merge steps.
 - `MaximumBinaryTreeDivideConquer.java` - Use the range maximum as the root and recurse on both sides.
 - `LongestSubstringWithAtLeastKRepeatingDivideConquer.java` - Split on characters that are too rare to be included.
 - `ConvertSortedListToBSTDivideConquer.java` - Use the list's middle node as the root of each range.
+- `KaratsubaMultiplicationDivideConquer.java` - Split the numbers in half and use three recursive products instead of four.
+- `BeautifulArrayDivideConquer.java` - Place odds before evens and build each group from a smaller beautiful array.
+- `SearchA2DMatrixIIDivideConquer.java` - Use the middle column to discard two quadrants and recurse into the other two.
+- `ConstructQuadTreeDivideConquer.java` - Build four quadrants recursively and merge them when they are identical leaves.
+- `KClosestPointsQuickSelectDivideConquer.java` - Partition by distance and continue only in the side that contains position k.
 
 ### Hard
 - `MergeKSortedListsDivideConquer.java` - Merge pairs of lists recursively, just like merge sort combines halves.
 - `ReversePairsDivideConquer.java` - Count pairs with a two-pointer pass before each merge.
 - `CountOfSmallerNumbersAfterSelfDivideConquer.java` - Merge sort on indices, crediting each left element with right elements placed before it.
 - `TheSkylineProblemDivideConquer.java` - Merge two skylines by tracking the current height of each.
+- `CountOfRangeSumDivideConquer.java` - Merge sort the prefix sums and count cross pairs within the range using two pointers.
+- `ClosestPairOfPointsDivideConquer.java` - Split by x, solve both halves, and check only a thin strip around the dividing line.
 
 
 ## How to run one file

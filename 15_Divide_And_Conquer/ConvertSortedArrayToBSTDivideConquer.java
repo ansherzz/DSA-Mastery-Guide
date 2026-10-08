@@ -3,7 +3,7 @@ import java.util.*;
 /*
 Problem: Convert Sorted Array to Binary Search Tree
 Pattern: 15. Divide & Conquer
-Difficulty: Easy-Medium
+Difficulty: Easy
 
 Interview Prompt:
 Given a sorted integer array, convert it into a height-balanced BST.

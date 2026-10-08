@@ -25,6 +25,8 @@ Ask two questions: do I need a heap for dynamic best choice, and what invariant 
 - `LastStoneWeightHeapGreedy.java` - Max-heap simulation of repeatedly smashing the two heaviest stones.
 - `AssignCookiesHeapGreedy.java` - Sort both lists and give each child the smallest cookie that satisfies them.
 - `LemonadeChangeHeapGreedy.java` - Prefer giving a 10 as change to keep the more flexible 5s.
+- `MaximumUnitsOnATruckHeapGreedy.java` - Fill every slot with the richest box type still available.
+- `CanPlaceFlowersHeapGreedy.java` - Plant in the first legal plot each time; it never blocks a better arrangement.
 
 ### Medium
 - `TopKFrequentElementsHeapGreedy.java` - Count frequencies, then use a heap to extract the top k.
@@ -39,12 +41,20 @@ Ask two questions: do I need a heap for dynamic best choice, and what invariant 
 - `MergeIntervalsHeapGreedy.java` - Sort by start and extend or close the current interval.
 - `NonOverlappingIntervalsHeapGreedy.java` - Sort by end and always keep the interval that finishes first.
 - `PartitionLabelsHeapGreedy.java` - Extend each part to the last occurrence of every letter inside it.
+- `BestTimeToBuyAndSellStockIIHeapGreedy.java` - Collect every upward day-to-day price move.
+- `MinimumNumberOfArrowsToBurstBalloonsHeapGreedy.java` - Sort by end and shoot at the end of the first balloon not yet burst.
+- `FurthestBuildingYouCanReachHeapGreedy.java` - Give every climb a ladder, then pay bricks for the smallest one when ladders run out.
+- `SingleThreadedCPUHeapGreedy.java` - Simulate time with a min-heap of available tasks keyed by processing time and index.
+- `FindKPairsWithSmallestSumsHeapGreedy.java` - K-way merge the sorted pair lists with a min-heap of list heads.
+- `QueueReconstructionByHeightHeapGreedy.java` - Place the tallest people first and insert each person at index k.
 
 ### Hard
 - `MergeKSortedListsHeapGreedy.java` - A min-heap across list heads always reveals the next smallest node.
 - `FindMedianFromDataStreamHeapGreedy.java` - Balance a max-heap of the lower half against a min-heap of the upper half.
 - `IPOHeapGreedy.java` - Unlock projects by capital and repeatedly take the most profitable one.
 - `CandyHeapGreedy.java` - Two greedy passes, one for each neighbor rule.
+- `CourseScheduleIIIHeapGreedy.java` - Take courses by deadline and drop the longest one whenever the schedule overflows.
+- `MinimumNumberOfRefuelingStopsHeapGreedy.java` - Keep passed stations in a max-heap and refuel retroactively only when out of range.
 
 
 ## How to run one file

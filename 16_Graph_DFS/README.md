@@ -23,6 +23,7 @@ Be explicit about visited state: unvisited, visiting, and visited when detecting
 ### Easy
 - `FindIfPathExistsInGraphDFSGraph.java` - Iterative DFS reachability check with a visited array.
 - `IslandPerimeterDFSGraph.java` - Each step off the island or into water counts one perimeter edge.
+- `FloodFillDFSGraph.java` - Recolor the connected component of the starting pixel, using the new color as the visited mark.
 
 ### Medium
 - `NumberOfProvincesDFSGraph.java` - Each DFS marks one full connected component.
@@ -40,11 +41,20 @@ Be explicit about visited state: unvisited, visiting, and visited when detecting
 - `ReorderRoutesToCityZeroDFSGraph.java` - Walk the tree outward from city 0 and count roads pointing away.
 - `TimeNeededToInformAllEmployeesDFSGraph.java` - Longest weighted root-to-leaf path in the management tree.
 - `EvaluateDivisionDFSGraph.java` - Model ratios as weighted edges and multiply along a found path.
+- `EmployeeImportanceDFSGraph.java` - Map ids to employees and sum importance over the reporting tree.
+- `NumberOfClosedIslandsDFSGraph.java` - Sink everything connected to the border, then count the islands that remain.
+- `CountSubIslandsDFSGraph.java` - Traverse each island of the second grid fully while checking it against the first grid.
+- `ColoringABorderDFSGraph.java` - Collect border cells during the traversal and recolor them only afterward.
+- `IsGraphBipartiteDFSGraph.java` - Two-color each component and look for an edge whose endpoints share a color.
+- `MinimumTimeToCollectAllApplesDFSGraph.java` - Walk an edge twice only if the subtree below it contains an apple.
+- `LoudAndRichDFSGraph.java` - Memoized DFS over the poorer-to-richer DAG to find the quietest reachable person.
 
 ### Hard
 - `ReconstructItineraryDFSGraph.java` - Hierholzer's Eulerian path with smallest-destination-first DFS.
 - `CriticalConnectionsDFSGraph.java` - Tarjan's bridge finding with discovery and low-link times.
 - `LongestIncreasingPathInMatrixDFSGraph.java` - Memoized DFS over the implicit DAG of increasing moves.
+- `SumOfDistancesInTreeDFSGraph.java` - Solve for one root, then reroot across each edge in O(1).
+- `MakingALargeIslandDFSGraph.java` - Label islands with ids and sizes, then test each zero against its neighboring islands.
 
 
 ## How to run one file

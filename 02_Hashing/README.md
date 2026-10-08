@@ -31,6 +31,12 @@ Once you see repeated lookups or frequency counting, reach for HashMap, HashSet,
 - `HappyNumberHashing.java` - Use a HashSet of seen values to detect a cycle in the digit-square process.
 - `IntersectionOfTwoArraysHashing.java` - Count one array, then consume counts while scanning the other.
 - `RansomNoteHashing.java` - Treat the magazine as a letter supply and consume from it.
+- `ContainsDuplicateHashing.java` - Add values to a HashSet and stop at the first one already present.
+- `JewelsAndStonesHashing.java` - Load the jewel types into a set and test every stone against it.
+- `FindTheDifferenceHashing.java` - Count the letters of one string and consume them with the other to expose the extra letter.
+- `LongestPalindromeHashing.java` - Count letters, use every pair, and allow one odd letter in the center.
+- `MinimumIndexSumOfTwoListsHashing.java` - Map each string to its index so common strings and their index sums are found in one scan.
+- `DesignHashMapHashing.java` - Build a hash table from scratch with bucket arrays and separate chaining.
 
 ### Medium
 - `GroupAnagramsHashing.java` - Hash each word by a canonical sorted signature.
@@ -43,6 +49,12 @@ Once you see repeated lookups or frequency counting, reach for HashMap, HashSet,
 - `BrickWallHashing.java` - Count shared brick-edge positions and cut through the most common one.
 - `LRUCacheHashing.java` - Combine a HashMap with a doubly linked list for O(1) get, put, and eviction.
 - `RandomizedSetHashing.java` - Pair a list with a value -> index map so insert, remove, and random pick are O(1).
+- `TopKFrequentWordsHashing.java` - Count words, then order by frequency with alphabetical tie-breaking.
+- `PairsOfSongsDivisibleBy60Hashing.java` - Bucket durations by remainder mod 60 and look up the complementary remainder.
+- `EncodeAndDecodeTinyURLHashing.java` - Use two maps and a base-62 counter to map URLs to short codes and back.
+
+### Hard
+- `FirstMissingPositiveHashing.java` - Use the array itself as the hash table by placing value v at index v - 1.
 
 
 ## How to run one file

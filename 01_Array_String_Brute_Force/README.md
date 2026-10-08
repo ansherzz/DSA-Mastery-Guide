@@ -32,6 +32,11 @@ After writing the brute-force solution, ask which repeated work can be avoided. 
 - `PlusOneArrayBasics.java` - Simulate adding one with a carry moving from the last digit.
 - `MissingNumberBruteForce.java` - Check each candidate in 0..n against the whole array.
 - `MajorityElementBruteForce.java` - Count occurrences of each element and compare against n / 2.
+- `SingleNumberBruteForce.java` - Count each value's occurrences directly, then see why XOR removes the inner loop.
+- `ValidAnagramBruteForce.java` - Sort both strings into a canonical order and compare.
+- `ReverseStringArrayBasics.java` - Swap mirrored positions in place.
+- `IntersectionOfTwoArraysBruteForce.java` - Check every value of one array against the other and skip repeats.
+- `MaxConsecutiveOnesArrayBasics.java` - Keep a running run length that resets on every zero.
 
 ### Medium
 - `MaximumSubarrayBruteForce.java` - Enumerate all contiguous subarrays and keep the best sum.
@@ -43,6 +48,13 @@ After writing the brute-force solution, ask which repeated work can be avoided. 
 - `CountInversionsBruteForce.java` - Count every pair where an earlier value is larger than a later one.
 - `LongestSubstringWithoutRepeatingBruteForce.java` - Extend from every start until a character repeats.
 - `SpiralMatrixArrayBasics.java` - Simulate the spiral walk with four shrinking boundaries.
+- `RotateImageArrayBasics.java` - Rotate in place by transposing and then reversing each row.
+- `SetMatrixZeroesArrayBasics.java` - Record zero rows and columns first, then apply them in a second pass.
+- `MultiplyStringsArrayBasics.java` - Simulate grade-school multiplication on digit arrays.
+- `CountAndSayArrayBasics.java` - Build each term by run-length describing the previous one.
+
+### Hard
+- `TrappingRainWaterBruteForce.java` - For each bar, scan for the tallest bar on both sides to get its water level.
 
 
 ## How to run one file

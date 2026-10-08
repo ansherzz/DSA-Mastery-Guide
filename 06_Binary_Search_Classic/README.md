@@ -32,6 +32,12 @@ State the invariant: is your search range inclusive, and what does it mean when 
 - `ArrangingCoinsBinarySearch.java` - Find the largest row count whose triangular number still fits.
 - `KthMissingPositiveNumberBinarySearch.java` - Binary search on the count of missing numbers before each index.
 - `CountOccurrencesInSortedArrayBinarySearch.java` - Subtract two lower bounds to count a target's block.
+- `SpecialArrayWithXElementsBinarySearch.java` - Count elements >= x with a lower bound and test each candidate x.
+- `MaximumCountOfPositiveAndNegativeBinarySearch.java` - Locate the end of the negatives and the start of the positives with two lower bounds.
+- `IntersectionOfTwoArraysBinarySearch.java` - Sort one array and binary search each distinct value of the other.
+- `FloorAndCeilInSortedArrayBinarySearch.java` - Record the last value passed on each side while searching for x.
+- `FindTheDistanceValueBetweenTwoArraysBinarySearch.java` - Check only the first element >= x - d to see whether anything lies within distance d.
+- `LongestSubsequenceWithLimitedSumBinarySearch.java` - Sort, prefix-sum, and upper-bound each query.
 
 ### Medium
 - `FindFirstAndLastPositionBinarySearch.java` - Use binary search twice to locate both boundaries.
@@ -43,6 +49,10 @@ State the invariant: is your search range inclusive, and what does it mean when 
 - `SearchInSortedArrayOfUnknownSizeBinarySearch.java` - Double the right bound until it covers the target, then search.
 - `PeakIndexInMountainArrayBinarySearch.java` - Use the uphill/downhill comparison as the search predicate.
 - `SuccessfulPairsOfSpellsAndPotionsBinarySearch.java` - Sort potions and lower-bound the first successful one per spell.
+- `TwoSumIISortedBinarySearch.java` - For each number, binary search its complement in the part to its right.
+- `MostBeautifulItemForEachQueryBinarySearch.java` - Sort by price, keep a running best beauty, and upper-bound each query.
+- `LongestIncreasingSubsequenceBinarySearch.java` - Keep the smallest tail per length and place each number with a lower bound.
+- `OnlineElectionBinarySearch.java` - Precompute the leader after every vote and find the last vote at or before the query time.
 
 
 ## How to run one file

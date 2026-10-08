@@ -31,6 +31,10 @@ Decide whether your DFS is preorder, inorder, or postorder based on when a node 
 - `PathSumDFS.java` - Pass the remaining target down and check it at each leaf.
 - `SubtreeOfAnotherTreeDFS.java` - Try the same-tree check at every node of the larger tree.
 - `MergeTwoBinaryTreesDFS.java` - Paired DFS that sums overlapping nodes and reuses lone subtrees.
+- `BinaryTreePathsDFS.java` - Carry the path down the recursion and record it at each leaf.
+- `SumOfLeftLeavesDFS.java` - Pass an is-left-child flag downward and add only left leaves.
+- `UnivaluedBinaryTreeDFS.java` - Compare every node with its children and recurse.
+- `BinaryTreeTiltDFS.java` - Return subtree sums upward while accumulating each node's tilt.
 
 ### Medium
 - `PathSumIIDFS.java` - Carry the current path, record matches at leaves, and backtrack.
@@ -40,11 +44,17 @@ Decide whether your DFS is preorder, inorder, or postorder based on when a node 
 - `FlattenBinaryTreeToLinkedListDFS.java` - Reverse pre-order traversal linking each node to the previously visited one.
 - `HouseRobberIIIDFS.java` - Return a (skip, rob) pair from every subtree.
 - `PathSumIIIDFS.java` - Prefix sums in a hash map along the current root-to-node path.
+- `LongestUnivaluePathDFS.java` - Return the best same-value arm and combine two arms at each node.
+- `DeleteNodesAndReturnForestDFS.java` - Pass down whether the parent was deleted and return null for deleted nodes.
+- `LongestZigZagPathDFS.java` - Carry the zigzag length for each arrival direction, extending one and resetting the other.
+- `DistributeCoinsInBinaryTreeDFS.java` - Compute each subtree's coin balance; its absolute value is the flow across that edge.
+- `MaximumDifferenceBetweenNodeAndAncestorDFS.java` - Carry the path minimum and maximum down to every node.
 
 ### Hard
 - `BinaryTreeMaximumPathSumDFS.java` - Update a global best path while returning only one extendable branch upward.
 - `SerializeAndDeserializeBinaryTreeDFS.java` - Pre-order with null markers, written and read by mirrored recursions.
 - `BinaryTreeCamerasDFS.java` - Greedy post-order with three node states.
+- `VerticalOrderTraversalDFS.java` - Label nodes with (column, row) during DFS, then sort and group by column.
 
 
 ## How to run one file

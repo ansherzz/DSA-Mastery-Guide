@@ -26,6 +26,9 @@ Ask what should stay on the stack: raw values, indices, or pairs with metadata.
 - `RemoveAllAdjacentDuplicatesStack.java` - Cancel a character against the last surviving one.
 - `ImplementQueueUsingStacksStack.java` - Two stacks reverse order twice to give FIFO behavior.
 - `BaseballGameStack.java` - Apply score operations that always refer to the most recent entries.
+- `MakeTheStringGreatStack.java` - Cancel each character against the top when they are the same letter in different cases.
+- `BackspaceStringCompareStack.java` - Simulate each editor with a stack where '#' pops.
+- `CrawlerLogFolderStack.java` - Treat the path as a stack and track only its depth.
 
 ### Medium
 - `DailyTemperaturesStack.java` - Use a decreasing stack of unresolved temperature indices.
@@ -40,11 +43,18 @@ Ask what should stay on the stack: raw values, indices, or pairs with metadata.
 - `BasicCalculatorIIStack.java` - Apply * and / to the top term immediately and sum the stack at the end.
 - `MinimumRemoveToMakeValidParenthesesStack.java` - Track unmatched bracket indices and delete them.
 - `OneThreeTwoPatternStack.java` - Scan from the right, tracking the best "2" popped by a larger "3".
+- `RemoveAllAdjacentDuplicatesIIStack.java` - Stack (character, run length) pairs and pop a run when it reaches k.
+- `ValidateStackSequencesStack.java` - Simulate the pushes and pop greedily whenever the top matches the next expected value.
+- `SumOfSubarrayMinimumsStack.java` - Count the subarrays where each element is the minimum using a monotonic stack.
+- `RemoveDuplicateLettersStack.java` - Pop larger letters that still appear later to build the smallest result.
+- `CarFleetStack.java` - Sort by position and stack arrival times; a slower arrival starts a new fleet.
 
 ### Hard
 - `LargestRectangleInHistogramStack.java` - Increasing stack gives the exact width for each popped bar.
 - `LongestValidParenthesesStack.java` - Store indices with a base marker to measure valid stretches.
 - `MaximalRectangleStack.java` - Turn each row into a histogram and reuse the largest-rectangle stack.
+- `BasicCalculatorStack.java` - Save the outer result and sign on a stack at every opening parenthesis.
+- `TrappingRainWaterStack.java` - Use a decreasing stack to fill basins layer by layer as taller bars arrive.
 
 
 ## How to run one file
