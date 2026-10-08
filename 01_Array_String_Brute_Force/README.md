@@ -21,43 +21,45 @@ After writing the brute-force solution, ask which repeated work can be avoided. 
 ## Problems in this folder
 
 ### Easy
-- `TwoSumBruteForce.java` - Check every pair and return matching indices.
-- `BestTimeToBuySellStockBruteForce.java` - Compare every buy day with every later sell day.
-- `MoveZeroesArrayBasics.java` - Use a write pointer to compact non-zero values.
-- `ContainsDuplicateArrayBasics.java` - Use the simplest duplicate check: compare every pair.
-- `RotateArrayBruteForce.java` - Rotate right by k by performing k single-step rotations.
-- `LongestCommonPrefixBruteForce.java` - Compare the words column by column until a mismatch.
-- `FindFirstOccurrenceInStringBruteForce.java` - Try every start index and match the needle character by character.
-- `MergeSortedArrayArrayBasics.java` - Merge in-place by filling the first array from the back.
-- `PlusOneArrayBasics.java` - Simulate adding one with a carry moving from the last digit.
-- `MissingNumberBruteForce.java` - Check each candidate in 0..n against the whole array.
-- `MajorityElementBruteForce.java` - Count occurrences of each element and compare against n / 2.
-- `SingleNumberBruteForce.java` - Count each value's occurrences directly, then see why XOR removes the inner loop.
-- `ValidAnagramBruteForce.java` - Sort both strings into a canonical order and compare.
-- `ReverseStringArrayBasics.java` - Swap mirrored positions in place.
-- `IntersectionOfTwoArraysBruteForce.java` - Check every value of one array against the other and skip repeats.
-- `MaxConsecutiveOnesArrayBasics.java` - Keep a running run length that resets on every zero.
+- `P01_TwoSumBruteForce.java` - Check every pair and return matching indices.
+- `P02_BestTimeToBuySellStockBruteForce.java` - Compare every buy day with every later sell day.
+- `P03_MoveZeroesArrayBasics.java` - Use a write pointer to compact non-zero values.
+- `P04_ContainsDuplicateArrayBasics.java` - Use the simplest duplicate check: compare every pair.
+- `P05_RotateArrayBruteForce.java` - Rotate right by k by performing k single-step rotations.
+- `P06_LongestCommonPrefixBruteForce.java` - Compare the words column by column until a mismatch.
+- `P07_FindFirstOccurrenceInStringBruteForce.java` - Try every start index and match the needle character by character.
+- `P08_MergeSortedArrayArrayBasics.java` - Merge in-place by filling the first array from the back.
+- `P09_PlusOneArrayBasics.java` - Simulate adding one with a carry moving from the last digit.
+- `P10_MissingNumberBruteForce.java` - Check each candidate in 0..n against the whole array.
+- `P11_MajorityElementBruteForce.java` - Count occurrences of each element and compare against n / 2.
+- `P12_SingleNumberBruteForce.java` - Count each value's occurrences directly, then see why XOR removes the inner loop.
+- `P13_ValidAnagramBruteForce.java` - Sort both strings into a canonical order and compare.
+- `P14_ReverseStringArrayBasics.java` - Swap mirrored positions in place.
+- `P15_IntersectionOfTwoArraysBruteForce.java` - Check every value of one array against the other and skip repeats.
+- `P16_MaxConsecutiveOnesArrayBasics.java` - Keep a running run length that resets on every zero.
 
 ### Medium
-- `MaximumSubarrayBruteForce.java` - Enumerate all contiguous subarrays and keep the best sum.
-- `LongestPalindromicSubstringBruteForce.java` - Test every (start, end) substring for being a palindrome.
-- `MaximumProductSubarrayBruteForce.java` - Enumerate all subarrays with a running product.
-- `SubarraySumEqualsKBruteForce.java` - Count subarrays with sum k using a running sum from every start.
-- `ThreeSumBruteForce.java` - Triple loop over sorted values with a set to remove duplicate triplets.
-- `ReverseWordsInStringArrayBasics.java` - Scan from the right and collect words while skipping extra spaces.
-- `CountInversionsBruteForce.java` - Count every pair where an earlier value is larger than a later one.
-- `LongestSubstringWithoutRepeatingBruteForce.java` - Extend from every start until a character repeats.
-- `SpiralMatrixArrayBasics.java` - Simulate the spiral walk with four shrinking boundaries.
-- `RotateImageArrayBasics.java` - Rotate in place by transposing and then reversing each row.
-- `SetMatrixZeroesArrayBasics.java` - Record zero rows and columns first, then apply them in a second pass.
-- `MultiplyStringsArrayBasics.java` - Simulate grade-school multiplication on digit arrays.
-- `CountAndSayArrayBasics.java` - Build each term by run-length describing the previous one.
+- `P17_MaximumSubarrayBruteForce.java` - Enumerate all contiguous subarrays and keep the best sum.
+- `P18_LongestPalindromicSubstringBruteForce.java` - Test every (start, end) substring for being a palindrome.
+- `P19_MaximumProductSubarrayBruteForce.java` - Enumerate all subarrays with a running product.
+- `P20_SubarraySumEqualsKBruteForce.java` - Count subarrays with sum k using a running sum from every start.
+- `P21_ThreeSumBruteForce.java` - Triple loop over sorted values with a set to remove duplicate triplets.
+- `P22_ReverseWordsInStringArrayBasics.java` - Scan from the right and collect words while skipping extra spaces.
+- `P23_CountInversionsBruteForce.java` - Count every pair where an earlier value is larger than a later one.
+- `P24_LongestSubstringWithoutRepeatingBruteForce.java` - Extend from every start until a character repeats.
+- `P25_SpiralMatrixArrayBasics.java` - Simulate the spiral walk with four shrinking boundaries.
+- `P26_RotateImageArrayBasics.java` - Rotate in place by transposing and then reversing each row.
+- `P27_SetMatrixZeroesArrayBasics.java` - Record zero rows and columns first, then apply them in a second pass.
+- `P28_MultiplyStringsArrayBasics.java` - Simulate grade-school multiplication on digit arrays.
+- `P29_CountAndSayArrayBasics.java` - Build each term by run-length describing the previous one.
 
 ### Hard
-- `TrappingRainWaterBruteForce.java` - For each bar, scan for the tallest bar on both sides to get its water level.
+- `P30_TrappingRainWaterBruteForce.java` - For each bar, scan for the tallest bar on both sides to get its water level.
 
 
 ## How to run one file
+The number in each file name is the suggested solving order (P01 first, P30 last).
+
 From inside this folder:
 
 ```bash
@@ -68,6 +70,6 @@ java FileName
 Example:
 
 ```bash
-javac TwoSumBruteForce.java
-java TwoSumBruteForce
+javac P01_TwoSumBruteForce.java
+java P01_TwoSumBruteForce
 ```

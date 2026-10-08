@@ -21,43 +21,45 @@ Once you see repeated lookups or frequency counting, reach for HashMap, HashSet,
 ## Problems in this folder
 
 ### Easy
-- `ValidAnagramHashing.java` - Count character frequencies and compare.
-- `MajorityElementHashing.java` - Count frequencies until one crosses n/2.
-- `TwoSumHashing.java` - Store value -> index and look up each complement.
-- `ContainsDuplicateIIHashing.java` - Remember the last index of each value and compare the gap with k.
-- `FirstUniqueCharacterHashing.java` - Count frequencies, then find the first character with count 1.
-- `IsomorphicStringsHashing.java` - Keep forward and backward maps to enforce a one-to-one character mapping.
-- `WordPatternHashing.java` - Enforce a bijection between pattern letters and words.
-- `HappyNumberHashing.java` - Use a HashSet of seen values to detect a cycle in the digit-square process.
-- `IntersectionOfTwoArraysHashing.java` - Count one array, then consume counts while scanning the other.
-- `RansomNoteHashing.java` - Treat the magazine as a letter supply and consume from it.
-- `ContainsDuplicateHashing.java` - Add values to a HashSet and stop at the first one already present.
-- `JewelsAndStonesHashing.java` - Load the jewel types into a set and test every stone against it.
-- `FindTheDifferenceHashing.java` - Count the letters of one string and consume them with the other to expose the extra letter.
-- `LongestPalindromeHashing.java` - Count letters, use every pair, and allow one odd letter in the center.
-- `MinimumIndexSumOfTwoListsHashing.java` - Map each string to its index so common strings and their index sums are found in one scan.
-- `DesignHashMapHashing.java` - Build a hash table from scratch with bucket arrays and separate chaining.
+- `P01_ValidAnagramHashing.java` - Count character frequencies and compare.
+- `P02_MajorityElementHashing.java` - Count frequencies until one crosses n/2.
+- `P03_TwoSumHashing.java` - Store value -> index and look up each complement.
+- `P04_ContainsDuplicateIIHashing.java` - Remember the last index of each value and compare the gap with k.
+- `P05_FirstUniqueCharacterHashing.java` - Count frequencies, then find the first character with count 1.
+- `P06_IsomorphicStringsHashing.java` - Keep forward and backward maps to enforce a one-to-one character mapping.
+- `P07_WordPatternHashing.java` - Enforce a bijection between pattern letters and words.
+- `P08_HappyNumberHashing.java` - Use a HashSet of seen values to detect a cycle in the digit-square process.
+- `P09_IntersectionOfTwoArraysHashing.java` - Count one array, then consume counts while scanning the other.
+- `P10_RansomNoteHashing.java` - Treat the magazine as a letter supply and consume from it.
+- `P11_ContainsDuplicateHashing.java` - Add values to a HashSet and stop at the first one already present.
+- `P12_JewelsAndStonesHashing.java` - Load the jewel types into a set and test every stone against it.
+- `P13_FindTheDifferenceHashing.java` - Count the letters of one string and consume them with the other to expose the extra letter.
+- `P14_LongestPalindromeHashing.java` - Count letters, use every pair, and allow one odd letter in the center.
+- `P15_MinimumIndexSumOfTwoListsHashing.java` - Map each string to its index so common strings and their index sums are found in one scan.
+- `P16_DesignHashMapHashing.java` - Build a hash table from scratch with bucket arrays and separate chaining.
 
 ### Medium
-- `GroupAnagramsHashing.java` - Hash each word by a canonical sorted signature.
-- `SubarraySumEqualsKHashing.java` - Hash prefix sums so each subarray total is found in O(1) average time.
-- `LongestConsecutiveSequenceHashing.java` - Use a HashSet to detect sequence starts and extend them.
-- `SortCharactersByFrequencyHashing.java` - Count characters, then bucket them by frequency.
-- `FourSumIIHashing.java` - Hash all pair sums of two arrays and look up the negated sums of the other two.
-- `ContiguousArrayHashing.java` - Map each running balance to its first index to find the longest balanced subarray.
-- `ValidSudokuHashing.java` - Encode (group, digit) keys in one set to catch repeats in rows, columns, and boxes.
-- `BrickWallHashing.java` - Count shared brick-edge positions and cut through the most common one.
-- `LRUCacheHashing.java` - Combine a HashMap with a doubly linked list for O(1) get, put, and eviction.
-- `RandomizedSetHashing.java` - Pair a list with a value -> index map so insert, remove, and random pick are O(1).
-- `TopKFrequentWordsHashing.java` - Count words, then order by frequency with alphabetical tie-breaking.
-- `PairsOfSongsDivisibleBy60Hashing.java` - Bucket durations by remainder mod 60 and look up the complementary remainder.
-- `EncodeAndDecodeTinyURLHashing.java` - Use two maps and a base-62 counter to map URLs to short codes and back.
+- `P17_GroupAnagramsHashing.java` - Hash each word by a canonical sorted signature.
+- `P18_SubarraySumEqualsKHashing.java` - Hash prefix sums so each subarray total is found in O(1) average time.
+- `P19_LongestConsecutiveSequenceHashing.java` - Use a HashSet to detect sequence starts and extend them.
+- `P20_SortCharactersByFrequencyHashing.java` - Count characters, then bucket them by frequency.
+- `P21_FourSumIIHashing.java` - Hash all pair sums of two arrays and look up the negated sums of the other two.
+- `P22_ContiguousArrayHashing.java` - Map each running balance to its first index to find the longest balanced subarray.
+- `P23_ValidSudokuHashing.java` - Encode (group, digit) keys in one set to catch repeats in rows, columns, and boxes.
+- `P24_BrickWallHashing.java` - Count shared brick-edge positions and cut through the most common one.
+- `P25_LRUCacheHashing.java` - Combine a HashMap with a doubly linked list for O(1) get, put, and eviction.
+- `P26_RandomizedSetHashing.java` - Pair a list with a value -> index map so insert, remove, and random pick are O(1).
+- `P27_TopKFrequentWordsHashing.java` - Count words, then order by frequency with alphabetical tie-breaking.
+- `P28_PairsOfSongsDivisibleBy60Hashing.java` - Bucket durations by remainder mod 60 and look up the complementary remainder.
+- `P29_EncodeAndDecodeTinyURLHashing.java` - Use two maps and a base-62 counter to map URLs to short codes and back.
 
 ### Hard
-- `FirstMissingPositiveHashing.java` - Use the array itself as the hash table by placing value v at index v - 1.
+- `P30_FirstMissingPositiveHashing.java` - Use the array itself as the hash table by placing value v at index v - 1.
 
 
 ## How to run one file
+The number in each file name is the suggested solving order (P01 first, P30 last).
+
 From inside this folder:
 
 ```bash
@@ -68,6 +70,6 @@ java FileName
 Example:
 
 ```bash
-javac ValidAnagramHashing.java
-java ValidAnagramHashing
+javac P01_ValidAnagramHashing.java
+java P01_ValidAnagramHashing
 ```

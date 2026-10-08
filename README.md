@@ -43,7 +43,7 @@ This bundle is a study pack built around 20 core DSA patterns.
 
 ## How to study this pack
 1. Read the folder README first.
-2. Work through the problem list in order; each README lists its problems from easy to hard.
+2. Work through the files in numbered order (P01 to P30); each README lists them in the same order, from easy to hard.
 3. Solve the problem on your own.
 4. Then read the commented Java solution.
 5. Run the file and inspect the sample output.
@@ -60,12 +60,14 @@ javac FileName.java
 java FileName
 ```
 
+The number in each file name is the suggested solving order inside its folder (P01 first, P30 last).
+
 Example:
 
 ```bash
 cd 03_Two_Pointers
-javac ThreeSumTwoPointers.java
-java ThreeSumTwoPointers
+javac P14_ThreeSumTwoPointers.java
+java P14_ThreeSumTwoPointers
 ```
 
 ## How to compile everything

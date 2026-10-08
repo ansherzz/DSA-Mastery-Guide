@@ -21,41 +21,43 @@ Before coding, say the monotonic rule out loud: if this value works, what happen
 ## Problems in this folder
 
 ### Medium
-- `KokoEatingBananasBinarySearchAnswer.java` - Binary search the minimum feasible eating speed.
-- `ShipPackagesWithinDDaysBinarySearchAnswer.java` - Binary search the smallest ship capacity that passes a simulation.
-- `MinimumDaysToMakeMBouquetsBinarySearchAnswer.java` - Search the earliest day that makes enough adjacent bouquets possible.
-- `MagneticForceBetweenTwoBallsBinarySearchAnswer.java` - Binary search the largest feasible minimum spacing.
-- `SmallestDivisorGivenThresholdBinarySearchAnswer.java` - Search the divisor; a larger divisor never increases the rounded-up sum.
-- `MinimizedMaximumOfProductsBinarySearchAnswer.java` - Search the per-store cap and count the stores each product needs.
-- `MaximumCandiesAllocatedToKChildrenBinarySearchAnswer.java` - Search the largest equal share that still serves k children.
-- `MinimumTimeToCompleteTripsBinarySearchAnswer.java` - Search the time limit and count trips completed within it.
-- `MinimumSpeedToArriveOnTimeBinarySearchAnswer.java` - Search the speed with rounded-up waits on every ride but the last.
-- `MinimumLimitOfBallsInBagBinarySearchAnswer.java` - Search the penalty and count the splits required to reach it.
-- `CuttingRibbonsBinarySearchAnswer.java` - Search the longest piece length that yields at least k pieces.
-- `MinimumTimeToRepairCarsBinarySearchAnswer.java` - Search the time and sum each mechanic's sqrt-based capacity.
-- `HouseRobberIVBinarySearchAnswer.java` - Search the capability and greedily count non-adjacent robbable houses.
-- `KthSmallestInSortedMatrixBinarySearchAnswer.java` - Search the value and count elements <= it with a staircase walk.
-- `MinimizeMaximumOfArrayBinarySearchAnswer.java` - Search the maximum and check that every prefix sum fits under it.
-- `MaximumTastinessOfCandyBasketBinarySearchAnswer.java` - Search the minimum price gap and greedily pick candies that respect it.
-- `UglyNumberIIIBinarySearchAnswer.java` - Search the value whose inclusion-exclusion count of multiples reaches n.
-- `MaximumNumberOfRemovableCharactersBinarySearchAnswer.java` - Search the number of removals and re-run a subsequence check.
-- `PathWithMinimumEffortBinarySearchAnswer.java` - Search the effort limit and test reachability with BFS.
-- `MaximumSideLengthOfSquareBinarySearchAnswer.java` - Search the side length and test squares with a 2D prefix sum.
-- `MinimizeMaximumDifferenceOfPairsBinarySearchAnswer.java` - Search the difference limit and greedily pair sorted neighbors.
-- `HeatersBinarySearchAnswer.java` - Search the radius and sweep houses against heaters to test coverage.
+- `P01_KokoEatingBananasBinarySearchAnswer.java` - Binary search the minimum feasible eating speed.
+- `P02_ShipPackagesWithinDDaysBinarySearchAnswer.java` - Binary search the smallest ship capacity that passes a simulation.
+- `P03_MinimumDaysToMakeMBouquetsBinarySearchAnswer.java` - Search the earliest day that makes enough adjacent bouquets possible.
+- `P04_MagneticForceBetweenTwoBallsBinarySearchAnswer.java` - Binary search the largest feasible minimum spacing.
+- `P05_SmallestDivisorGivenThresholdBinarySearchAnswer.java` - Search the divisor; a larger divisor never increases the rounded-up sum.
+- `P06_MinimizedMaximumOfProductsBinarySearchAnswer.java` - Search the per-store cap and count the stores each product needs.
+- `P07_MaximumCandiesAllocatedToKChildrenBinarySearchAnswer.java` - Search the largest equal share that still serves k children.
+- `P08_MinimumTimeToCompleteTripsBinarySearchAnswer.java` - Search the time limit and count trips completed within it.
+- `P09_MinimumSpeedToArriveOnTimeBinarySearchAnswer.java` - Search the speed with rounded-up waits on every ride but the last.
+- `P10_MinimumLimitOfBallsInBagBinarySearchAnswer.java` - Search the penalty and count the splits required to reach it.
+- `P11_CuttingRibbonsBinarySearchAnswer.java` - Search the longest piece length that yields at least k pieces.
+- `P12_MinimumTimeToRepairCarsBinarySearchAnswer.java` - Search the time and sum each mechanic's sqrt-based capacity.
+- `P13_HouseRobberIVBinarySearchAnswer.java` - Search the capability and greedily count non-adjacent robbable houses.
+- `P14_KthSmallestInSortedMatrixBinarySearchAnswer.java` - Search the value and count elements <= it with a staircase walk.
+- `P15_MinimizeMaximumOfArrayBinarySearchAnswer.java` - Search the maximum and check that every prefix sum fits under it.
+- `P16_MaximumTastinessOfCandyBasketBinarySearchAnswer.java` - Search the minimum price gap and greedily pick candies that respect it.
+- `P17_UglyNumberIIIBinarySearchAnswer.java` - Search the value whose inclusion-exclusion count of multiples reaches n.
+- `P18_MaximumNumberOfRemovableCharactersBinarySearchAnswer.java` - Search the number of removals and re-run a subsequence check.
+- `P19_PathWithMinimumEffortBinarySearchAnswer.java` - Search the effort limit and test reachability with BFS.
+- `P20_MaximumSideLengthOfSquareBinarySearchAnswer.java` - Search the side length and test squares with a 2D prefix sum.
+- `P21_MinimizeMaximumDifferenceOfPairsBinarySearchAnswer.java` - Search the difference limit and greedily pair sorted neighbors.
+- `P22_HeatersBinarySearchAnswer.java` - Search the radius and sweep houses against heaters to test coverage.
 
 ### Hard
-- `SplitArrayLargestSumBinarySearchAnswer.java` - Binary search the minimal largest allowed partition sum.
-- `KthSmallestInMultiplicationTableBinarySearchAnswer.java` - Search the value and count table entries <= it row by row.
-- `KthSmallestPairDistanceBinarySearchAnswer.java` - Search the distance and count close pairs with a sliding window.
-- `MinimizeMaxDistanceToGasStationBinarySearchAnswer.java` - Real-valued search on the largest allowed gap.
-- `MaximumRunningTimeOfNComputersBinarySearchAnswer.java` - Search the run time; each battery contributes at most that many minutes.
-- `DivideChocolateBinarySearchAnswer.java` - Maximize the minimum piece by greedily cutting once a piece is sweet enough.
-- `NthMagicalNumberBinarySearchAnswer.java` - Search the value whose count of multiples of a or b reaches n.
-- `MaximumAverageSubarrayIIBinarySearchAnswer.java` - Search the average over real numbers and test it with shifted prefix sums.
+- `P23_SplitArrayLargestSumBinarySearchAnswer.java` - Binary search the minimal largest allowed partition sum.
+- `P24_KthSmallestInMultiplicationTableBinarySearchAnswer.java` - Search the value and count table entries <= it row by row.
+- `P25_KthSmallestPairDistanceBinarySearchAnswer.java` - Search the distance and count close pairs with a sliding window.
+- `P26_MinimizeMaxDistanceToGasStationBinarySearchAnswer.java` - Real-valued search on the largest allowed gap.
+- `P27_MaximumRunningTimeOfNComputersBinarySearchAnswer.java` - Search the run time; each battery contributes at most that many minutes.
+- `P28_DivideChocolateBinarySearchAnswer.java` - Maximize the minimum piece by greedily cutting once a piece is sweet enough.
+- `P29_NthMagicalNumberBinarySearchAnswer.java` - Search the value whose count of multiples of a or b reaches n.
+- `P30_MaximumAverageSubarrayIIBinarySearchAnswer.java` - Search the average over real numbers and test it with shifted prefix sums.
 
 
 ## How to run one file
+The number in each file name is the suggested solving order (P01 first, P30 last).
+
 From inside this folder:
 
 ```bash
@@ -66,6 +68,6 @@ java FileName
 Example:
 
 ```bash
-javac KokoEatingBananasBinarySearchAnswer.java
-java KokoEatingBananasBinarySearchAnswer
+javac P01_KokoEatingBananasBinarySearchAnswer.java
+java P01_KokoEatingBananasBinarySearchAnswer
 ```
