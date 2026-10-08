@@ -9,8 +9,9 @@ This bundle is a study pack built around 20 core DSA patterns.
   - when to use it
   - how to identify it in interviews
   - a mental model / upgrade path
+  - the problem types (sub-patterns) the folder covers, with the files that belong to each
   - the runnable Java files in that folder, grouped from Easy to Medium to Hard
-- a set of interview-level problems for every pattern, each solved in its own runnable Java program
+- 50 interview-level problems for every pattern (1,000 in total), each solved in its own runnable Java program
 - every Java file includes:
   - a full interview-style problem statement in comments
   - the difficulty level (Easy, Medium, or Hard)
@@ -43,7 +44,7 @@ This bundle is a study pack built around 20 core DSA patterns.
 
 ## How to study this pack
 1. Read the folder README first.
-2. Work through the files in numbered order (P01 to P30); each README lists them in the same order, from easy to hard.
+2. Work through the files in numbered order (P01 to P50); each README lists them in the same order, from easy to hard.
 3. Solve the problem on your own.
 4. Then read the commented Java solution.
 5. Run the file and inspect the sample output.
@@ -60,14 +61,14 @@ javac FileName.java
 java FileName
 ```
 
-The number in each file name is the suggested solving order inside its folder (P01 first, P30 last).
+The number in each file name is the suggested solving order inside its folder (P01 first, P50 last).
 
 Example:
 
 ```bash
 cd 03_Two_Pointers
-javac P14_ThreeSumTwoPointers.java
-java P14_ThreeSumTwoPointers
+javac P23_ThreeSumTwoPointers.java
+java P23_ThreeSumTwoPointers
 ```
 
 ## How to compile everything
